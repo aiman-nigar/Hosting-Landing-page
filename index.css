@@ -509,68 +509,6 @@ ul li {
 
 /* ---------------------------------- */
 
-
-/* 
-footer {
-    display: flex;
-    margin-top: 100px;
-}
-
-.logo {
-    margin-top: 8px;
-    width: 25%;
-}
-
-.logo img {
-    margin-bottom: 20px;
-}
-
-.logo p {
-    color: #919191;
-}
-
-.links {
-    display: flex;
-    justify-content: space-evenly;
-    width: 55%;
-}
-
-.links ul {
-    list-style: none;
-}
-
-.links ul li:first-child {
-    font-size: 30px;
-    font-weight: 600;
-    color: #1D2B4F;
-}
-
-.links ul li {
-    font-size: 14px;
-    font-weight: 300;
-    margin: 10px 0;
-    color: #919191;
-}
-
-.socials {
-    margin-top: 8px;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    align-items: center;
-}
-
-.socials ul li img {
-    height: 48px;
-}
-
-.socials ul {
-    display: flex;
-    gap: 10px;
-    list-style: none;
-} */
-
 footer {
     display: grid;
     grid-template-columns: 400px 600px 300px;

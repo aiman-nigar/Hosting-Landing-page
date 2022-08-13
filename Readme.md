@@ -7,4 +7,4 @@ It is a static home page made using **HTML & CSS**.
 
 Time taken: 6 Hours
 
-> ### The link of the site: [Hosting Landing Page](https://aim-hosting-landing-page.netlify.app)
+> ### The link to the site: [Hosting Landing Page](https://aim-hosting-landing-page.netlify.app)

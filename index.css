@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -572,4 +572,144 @@ footer {
     font-size: 1.5rem;
     letter-spacing: 2px;
     margin-bottom: 1rem;
+}
+
+
+/* ================= */
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    body {
+        padding: 0.5rem;
+        text-align: center;
+        background-color: pink;
+        font-size: 1rem;
+    }
+    .logo {
+        padding-right: 7rem;
+    }
+    .container {
+        padding: 1.2rem 2px;
+        text-align: center;
+    }
+    nav {
+        width: fit-content;
+    }
+    nav a {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-item-active {
+        width: 100px;
+        padding: 0.2rem 0rem;
+        margin-top: 1.5rem;
+        margin-left: 0rem;
+    }
+    /* = */
+    .header,
+    .second-section,
+    .third-section,
+    .forth-section,
+    .sub-forth-section,
+    .card-grid,
+    .customer,
+    .horizontal-cards,
+    footer {
+        display: block;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+    .blue-right {
+        display: block;
+        position: relative;
+        left: -10rem;
+        top: 33rem;
+        align-items: center;
+    }
+    .blue-right>button {
+        width: fit-content;
+        padding: 0.8rem;
+    }
+    .customer>p {
+        position: relative;
+        left: 0rem;
+        width: fit-content;
+    }
+    .hc-card,
+    .hc-card>p,
+    .logol>p {
+        width: fit-content;
+        margin: 0rem;
+        margin-bottom: 1rem;
+    }
+    .logol {
+        width: 300px;
+        justify-content: center;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+    }
+    .socials>ul {
+        justify-content: center;
+    }
+    .left h1,
+    .right2 h1,
+    .cards h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 0.1px;
+        /* margin-left: -2rem; */
+        width: fit-content;
+    }
+    .cards {
+        margin-left: -9rem;
+        margin-right: -6.6rem;
+    }
+    .crad1 {
+        margin-bottom: 1rem;
+    }
+    .card-bottom button {
+        margin-right: 4rem;
+        margin-left: -4rem;
+        width: fit-content;
+    }
+    .right2 h1 {
+        font-size: 1.8rem;
+    }
+    .left p,
+    .right2 p,
+    .forth-section p {
+        font-size: 1rem;
+        width: fit-content;
+        text-align: center;
+        padding-right: 2rem;
+        /* text-size-adjust: auto; */
+    }
+    .left button {
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+    .right,
+    .right2 {
+        width: fit-content;
+        display: block;
+    }
+    .right img,
+    .left2 img {
+        height: 10rem;
+        justify-content: center;
+        width: fit-content;
+    }
+    .right3 img {
+        height: 15rem;
+        justify-content: center;
+        width: fit-content;
+    }
+    .right2 {
+        padding-left: 0rem;
+    }
+    /* ====== */
 }

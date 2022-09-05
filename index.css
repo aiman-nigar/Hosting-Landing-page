@@ -577,8 +577,10 @@ footer {
 
 /* ================= */
 
-@media only screen and (max-device-width: 480px) {
-    /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+/* 
+@media only screen and (max-device-width: 700px) {
+    styles for mobile browsers smaller than 480px; (iPhone)
     body {
         padding: 0.5rem;
         text-align: center;
@@ -604,7 +606,7 @@ footer {
         margin-top: 1.5rem;
         margin-left: 0rem;
     }
-    /* = */
+
     .header,
     .second-section,
     .third-section,
@@ -660,7 +662,7 @@ footer {
         font-size: 2rem;
         margin-bottom: 1.5rem;
         letter-spacing: 0.1px;
-        /* margin-left: -2rem; */
+       
         width: fit-content;
     }
     .cards {
@@ -685,7 +687,7 @@ footer {
         width: fit-content;
         text-align: center;
         padding-right: 2rem;
-        /* text-size-adjust: auto; */
+        
     }
     .left button {
         padding: 1rem;
@@ -709,6 +711,77 @@ footer {
     }
     .right2 {
         padding-left: 0rem;
+    } */
+
+
+/* ====== */
+
+@media (max-width: 700px) {
+    .container {
+        padding: 1rem;
     }
-    /* ====== */
+    .nav-item {
+        display: hidden;
+    }
+    .header,
+    .second-section,
+    .third-section,
+    .forth-section,
+    .sub-forth-section,
+    .card-grid,
+    .customer,
+    .horizontal-cards {
+        display: block;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .left h1 {
+        font-size: 2rem;
+        width: fit-content;
+    }
+    .left p {
+        font-size: 1rem;
+        width: fit-content;
+    }
+    .right img {
+        justify-content: center;
+        width: fit-content;
+    }
+    .customer {
+        margin: 0;
+    }
+    .customer,
+    .customer>p {
+        margin: 1rem;
+        left: 0rem;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+    .hc-card {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        width: fit-content;
+    }
+    footer,
+    .links,
+    .socials,
+    .logol {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
+    .links>ul {
+        float: none;
+    }
+    .links ul {
+        text-align: center;
+        justify-content: center;
+    }
+    .customer>p {
+        width: fit-content;
+    }
 }
